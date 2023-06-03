@@ -4,7 +4,8 @@
 </script>
 
 <template>
-  <el-button type="primary">Primary</el-button>
+<!-- 一级路由出口组件  -->
+<RouterView /> 
 </template>
 
 <style scoped>
@@ -12,8 +13,8 @@ header {
   line-height: 1.5;
   max-height: 100vh;
 }
-
-.logo {
+ 
+.logo { 
   display: block;
   margin: 0 auto 2rem;
 }
