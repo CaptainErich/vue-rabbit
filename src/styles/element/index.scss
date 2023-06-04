@@ -1,33 +1,25 @@
-// css/variables.scss
 /* 只需要重写你需要的即可 */
 @forward 'element-plus/theme-chalk/src/common/var.scss' with (
   $colors: (
     'primary': (
-        'base': #409eff,
-      ),
-      'success': (
-        'base': #67c23a,
-      ),
-      'warning': (
-        'base': #e6a23c,
-      ),
-      'danger': (
-        'base': #f56c6c, 
-      ),
-      'error': (
-        'base': #f56c6c,
-      ),
-      'info': (
-        'base': #909399,
-      ),
-  ), 
-  $font-size:(
-    'extra-large': 20px,
-    'large': 18px,
-    'medium': 16px,
-    'base': 20px,
-    'small': 13px,
-    'extra-small': 12px,
-  ),
-  
+      // 主色
+      'base': #27ba9b,
+    ),
+    'success': (
+      // 成功色
+      'base': #1dc779,
+    ),
+    'warning': (
+      // 警告色
+      'base': #ffb302,
+    ),
+    'danger': (
+      // 危险色
+      'base': #e26237,
+    ),
+    'error': (
+      // 错误色
+      'base': #cf4444,
+    ),
+  )
 );
