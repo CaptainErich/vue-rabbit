@@ -6,9 +6,17 @@
 <template>
 <!-- 一级路由出口组件  -->
 <RouterView /> 
+
+<div class="test"> 
+  test css
+</div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+.test {
+  color: $xtxColor;
+}
+ 
 header {
   line-height: 1.5;
   max-height: 100vh;
